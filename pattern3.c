@@ -1,19 +1,18 @@
-#include<stdio.h>
-int main(){
-    int i,j;
-    for ( i = 1; i <=10; i++)
+#include <stdio.h>
+int main()
+{
+    int i, j;
+    for (i = 1; i <= 10; i++)
     {
-        for ( j = 1; j <= 10; j++)
+        for (j = 1; j <= 10; j++)
         {
-            if (i==j)
-            
+            if (i == j)
+
                 printf("*");
-                else
+            else
                 printf("1");
-            }
-            printf("\n");
-            
         }
-        return 0;
+        printf("\n");
     }
-    
+    return 0;
+}
